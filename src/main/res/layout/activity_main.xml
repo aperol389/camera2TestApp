@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextureView
+            android:id="@+id/camera_0"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/takePhoto0"
+                android:layout_width="match_parent"
+                android:text="photo 0"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/record0"
+                android:layout_width="match_parent"
+                android:text="record 0"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextureView
+            android:id="@+id/camera_4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/takePhoto4"
+                android:layout_width="match_parent"
+                android:text="photo 4"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/record4"
+                android:layout_width="match_parent"
+                android:text="record 4"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextureView
+            android:id="@+id/camera_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/takePhoto1"
+                android:layout_width="match_parent"
+                android:text="photo 1"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/record1"
+                android:layout_width="match_parent"
+                android:text="record 1"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextureView
+            android:id="@+id/camera_5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/takePhoto5"
+                android:layout_width="match_parent"
+                android:text="photo 5"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/record5"
+                android:layout_width="match_parent"
+                android:text="record 5"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextureView
+            android:id="@+id/camera_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/takePhoto2"
+                android:layout_width="match_parent"
+                android:text="photo 2"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/record2"
+                android:layout_width="match_parent"
+                android:text="record 2"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextureView
+            android:id="@+id/camera_6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/takePhoto6"
+                android:layout_width="match_parent"
+                android:text="photo 6"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/record6"
+                android:layout_width="match_parent"
+                android:text="record 6"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextureView
+            android:id="@+id/camera_3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/takePhoto3"
+                android:layout_width="match_parent"
+                android:text="photo 3"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/record3"
+                android:layout_width="match_parent"
+                android:text="record 3"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextureView
+            android:id="@+id/camera_7"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/takePhoto7"
+                android:layout_width="match_parent"
+                android:text="photo 7"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/record7"
+                android:layout_width="match_parent"
+                android:text="record 7"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/camerasInfo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="**** cameras info: ****"
+            android:textColor="#EA5246"
+            android:textStyle="bold|italic"
+            android:background="#000000"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/exitAppButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="退出"
+            android:textColor="#FF0000"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+</LinearLayout>
